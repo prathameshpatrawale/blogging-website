@@ -3,6 +3,6 @@ services:
     name: blogging-website
     env: python
     plan: free
-    buildCommand: pip install -r requirement.txt 
-    startCommandd: python app.py
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
     pythonVersion: '3.13.1'
